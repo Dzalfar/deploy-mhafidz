@@ -8,10 +8,10 @@ import Link from "next/link";
 function Hero() {
   return (
     <div className="flex items-center flex-col min-h-screen desktop:px-20 mobile:p-6 bg-gradient-to-r from-gradientLeft to-gradientRight">
-      <div className="flex mobile:justify-center desktop:flex-row desktop:items-center mobile:flex-col-reverse items-center w-full flex-1">
+      <div className="flex desktop:justify-between desktop:flex-row desktop:items-center mobile:flex-col items-center w-full flex-1 gap-8">
         <div className="flex flex-col z-20 pointer-events-none text-white desktop:w-3/5 mobile:w-full mobile:text-center">
-          <p className="desktop:text-[5vw] mobile:text-[8vw] font-bold text-lightcyan w-full">
-            Hallo , &apos; My Name Hafidz
+          <p className="desktop:text-[5vw] mobile:text-[8vw] font-bold text-white w-full">
+            Hallo , &apos; My Name Euis siti meida'
           </p>
           <p className="desktop:text-[3vw] mobile:text-[5vw]">
             a developer specializing in web applications with
@@ -21,9 +21,10 @@ function Hero() {
             <SocialMedia size={200} />
           </div>
         </div>
+
         <img
-          className="w-2/5 mobile:w-full mobile:max-w-xl object-contain self-center animate-scalepulse"
-          src="/portraitdummy.webp"
+          className="w-1/5 mobile:w-3/5 mobile:max-w-sm object-contain self-center animate-scalepulse"
+          src="/euis.png"
           alt="Portrait"
         />
       </div>

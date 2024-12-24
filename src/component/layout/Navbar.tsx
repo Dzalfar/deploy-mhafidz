@@ -13,7 +13,7 @@ function Navbar() {
         isAtTop
           ? "opacity-100"
           : "opacity-0 hover:opacity-100 transition-opacity duration-500"
-      } flex justify-end items-center h-14 w-full bg-gradient-to-r from-transparent to-black text-white`}
+      } flex justify-end items-center h-14 w-full bg-gradient-to-r from-transparent to-slate-500 text-white`}
     >
       <div className="flex justify-around text-2xl w-1/2 items-center">
         <MenuItem title={"About"} />
